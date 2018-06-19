@@ -24,7 +24,7 @@ class School
   end
   
   def sort(grade)
-    @roster[grade].sort{|x,y| y <=> x } 
+    @roster[grade].sort{|x,y| x <=> y } 
     
   
   end
