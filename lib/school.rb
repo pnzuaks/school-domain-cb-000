@@ -25,6 +25,8 @@ class School
   
   def sort(grade)
     @roster[grade].sort
+    
+    sort_by!{ |m| m[:group][:name] }
   end
   
 end
