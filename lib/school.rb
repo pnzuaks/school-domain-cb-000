@@ -25,7 +25,7 @@ class School
   
   def sort()
     @roster.each do |key, value| 
-    @roster[key].sort do |a,b| a.downcase <=> b.downcase end
+    @roster[key].sort! do |a,b| a.downcase <=> b.downcase end
   end
   end
   
