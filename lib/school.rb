@@ -24,6 +24,7 @@ class School
   end
   
   def sort()
+    
     @roster[grade].sort do |a,b| a.downcase <=> b.downcase end
     
   end
