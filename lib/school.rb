@@ -24,7 +24,7 @@ class School
   end
   
   def sort(grade)
-    @roster[grade].sort{|x,y| x <=> y } 
+    @roster[grade].sort do |a,b| a.downcase <=> b.downcase end
     
   
   end
